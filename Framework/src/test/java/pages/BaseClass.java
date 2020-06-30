@@ -35,7 +35,7 @@ public class BaseClass {
 	}
 	
 	@AfterMethod
-	public void failedTC(ITestResult result)
+	public void failedTestCase(ITestResult result)
 	{
 		if(ITestResult.FAILURE==result.getStatus())
 		{

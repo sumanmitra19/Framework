@@ -31,6 +31,7 @@ public class BrowserFactory {
 		driver.manage().window().maximize();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
 		return driver;
 	}
 
