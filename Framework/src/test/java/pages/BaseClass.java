@@ -41,6 +41,5 @@ public class BaseClass {
 		{
 			Helper.captureScreenshot(driver);
 		}
-	}
-	
+	}	
 }
